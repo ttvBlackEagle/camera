@@ -11,7 +11,8 @@ create_link:
 
     url:
       description: Link to RTSP-stream
-      example: rtsp://rtsp:12345678@192.168.1.123:554/av_stream/ch0
+      example: custom:webrtc-camera
+      url: rtsp://admin:onvif150@192.168.1.61:554/onvif1
       selector:
         text:
 
